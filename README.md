@@ -1,2 +1,2 @@
-# Catering-Scheduling-Problem
- Catering scheduling problem is a classical synchronization problem.
+# Python-Basic-Project-1
+ This project includes Flattening and Reversing functions for Multi-Layer Lists.
