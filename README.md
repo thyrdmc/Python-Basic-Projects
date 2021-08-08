@@ -3,9 +3,9 @@
 
 #### Example for Flattening Function : 
 
- input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+ input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
  
- output: [1,'a','cat',2,3,'dog',4,5]
+ output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
  
 #### Example for Reversing Function :
 
