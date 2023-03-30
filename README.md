@@ -7,7 +7,7 @@
 ## Python-Basic-Project-2 (rock-paper-scissors.py)
  This project is for playing game with Computer that people who are bored. 
  
- <img width="869" alt="Ekran Resmi 2023-03-09 11 45 56" src="https://user-images.githubusercontent.com/62545306/223971403-e1c89acd-984e-421d-ad21-1375f91fc45d.png">
+ <img width="869" alt="Rock Paper Scissors" src="https://user-images.githubusercontent.com/62545306/228789030-c84bc671-2762-49f4-8b70-6c10470f4531.png">
 
 
 ## Python-Basic-Project-3 (flatten_and_reverse_function.py)
