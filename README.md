@@ -24,3 +24,18 @@
  input: [[1, 2], [3, 4], [5, 6, 7]]
  
  output: [[[7, 6, 5], [4, 3], [2, 1]]
+
+## Python-Basic-Project-4 (password-generator.py)
+ This project includes Password Generator App for Users.
+
+#### Example for Password Generator : 
+
+ Welcome to the Password Generator!
+ How many letters would you like in your password?
+ 3
+ How many symbols would you like?
+ 1
+ How many numbers would you like?
+ 1
+ Your password is h6zZ$
+ 
