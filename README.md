@@ -31,11 +31,18 @@
 #### Example for Password Generator : 
 
  Welcome to the Password Generator!
+ 
  How many letters would you like in your password?
+ 
  3
+ 
  How many symbols would you like?
+ 
  1
+ 
  How many numbers would you like?
+ 
  1
+ 
  Your password is h6zZ$
  
