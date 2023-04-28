@@ -14,7 +14,7 @@ def caesar_cipher(text, shift, direction):
 
         if i in alphabet:
             x = alphabet.index(i)
-            print(f'{i} -- {x}')
+            # print(f'{i} -- {x}')
             if x+shift > 25:
                 new_text += alphabet[x+shift-26]
             elif x+shift < 0:
