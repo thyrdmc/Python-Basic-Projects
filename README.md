@@ -38,7 +38,7 @@
  
  output: [[[7, 6, 5], [4, 3], [2, 1]]
 
-## Python-Basic-Project-6 (password-generator.py)
+## Python-Basic-Project-7 (password-generator.py)
  This project includes Password Generator App for Users.
 
 #### Example for Password Generator : 
@@ -59,3 +59,7 @@
  
  Your password is h6zZ$
  
+## Python-Basic-Project-8 (password-generator.py)
+ This project includes a basic Calculator Program with simple UI for users.
+ 
+ <img width="878" alt="Py-Calc Program" src="https://user-images.githubusercontent.com/62545306/235683162-2f315a72-9006-4792-b6bf-705e945c7ac6.png">
