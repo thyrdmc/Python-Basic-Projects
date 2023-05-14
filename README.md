@@ -21,7 +21,7 @@
 ## Python-Basic-Project-5 (hangman.py)
  This project is for playing game with Computer that people who are bored. 
  
- <img width="869" alt="Hangman" src="https://user-images.githubusercontent.com/62545306/234534275-f65efd2d-ac58-4808-bf21-4afcc15d446f.png">
+ <img width="650" alt="Hangman" src="https://user-images.githubusercontent.com/62545306/234534275-f65efd2d-ac58-4808-bf21-4afcc15d446f.png">
 
 ## Python-Basic-Project-6 (flatten_and_reverse_function.py)
  This project includes Flattening and Reversing functions for Multi-Layer Lists.
