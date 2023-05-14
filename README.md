@@ -63,3 +63,8 @@
  This project includes a basic Calculator Program with simple UI for users.
  
  <img width="878" alt="Py-Calc Program" src="https://user-images.githubusercontent.com/62545306/235683162-2f315a72-9006-4792-b6bf-705e945c7ac6.png">
+ 
+ ## Python-Basic-Project-9 (blackjack-game.py)
+ This project includes a Blackjack Game with simple UI for users.
+
+<img width="524" alt="BlackJack Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/c1d18eb5-9a16-4f98-96b5-a16a95d9a8a2">
