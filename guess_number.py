@@ -17,7 +17,8 @@ def controller(user_number, random_number):
     else:
         return 'To Low'
     
-print(guess_number)
+# print(guess_number)
+
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 
