@@ -68,3 +68,9 @@
  This project includes a Blackjack Game with simple UI for users.
 
 <img width="524" alt="BlackJack Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/c1d18eb5-9a16-4f98-96b5-a16a95d9a8a2">
+
+ ## Python-Basic-Project-10 (guess-number.py)
+ This project includes a Guess Number Game with simple UI for users.
+
+<img width="838" alt="Guess Number Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/46d5e308-a21b-4448-9c2d-f5691eb9aa4e">
+
