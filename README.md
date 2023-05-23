@@ -23,20 +23,11 @@
  
  <img width="650" alt="Hangman" src="https://user-images.githubusercontent.com/62545306/234534275-f65efd2d-ac58-4808-bf21-4afcc15d446f.png">
 
-## Python-Basic-Project-6 (flatten_and_reverse_function.py)
- This project includes Flattening and Reversing functions for Multi-Layer Lists.
+## Python-Basic-Project-6 (higher_lower_game.py)
+ This project includes Game of Guessing Instagram Followers of Famous Persons.
 
-#### Example for Flattening Function : 
+<img width="534" alt="Higher_Lower_Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/da92d40f-3fe0-47c5-bd9e-005f2aded979">
 
- input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
- 
- output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
- 
-#### Example for Reversing Function :
-
- input: [[1, 2], [3, 4], [5, 6, 7]]
- 
- output: [[[7, 6, 5], [4, 3], [2, 1]]
 
 ## Python-Basic-Project-7 (password-generator.py)
  This project includes Password Generator App for Users.
@@ -73,4 +64,19 @@
  This project includes a Guess Number Game with simple UI for users.
 
 <img width="838" alt="Guess Number Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/46d5e308-a21b-4448-9c2d-f5691eb9aa4e">
+
+## Python-Basic-Project-11 (flatten_and_reverse_function.py)
+ This project includes Flattening and Reversing functions for Multi-Layer Lists.
+
+#### Example for Flattening Function : 
+
+ input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
+ 
+ output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
+ 
+#### Example for Reversing Function :
+
+ input: [[1, 2], [3, 4], [5, 6, 7]]
+ 
+ output: [[[7, 6, 5], [4, 3], [2, 1]]
 
