@@ -32,6 +32,7 @@ lp = loooper(choose_level)
 print(f"You have {lp} attempts remanining to guess the number.")
 
 game_over = False
+
 while(lp>0 and not game_over):
     
     user_number = int(input('Make a guess: '))
