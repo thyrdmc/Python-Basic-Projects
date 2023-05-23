@@ -8,9 +8,9 @@ def mixer(random_index_a,random_index_b):
     os.system('clear')
     print(higher_lower_logo)
     print(f"You're right! Current score: {score}")
-    print(f"Compare A: {data[random_index_a]['name']}, a {data[random_index_a]['description']}, from {data[random_index_a]['country']}, !! {data[random_index_a]['follower_count']}")
+    print(f"Compare A: {data[random_index_a]['name']}, a {data[random_index_a]['description']}, from {data[random_index_a]['country']} ")
     print(vs)
-    print(f"Against B: {data[random_index_b]['name']}, a {data[random_index_b]['description']}, from {data[random_index_b]['country']}, !! {data[random_index_b]['follower_count']}")
+    print(f"Against B: {data[random_index_b]['name']}, a {data[random_index_b]['description']}, from {data[random_index_b]['country']} ")
 
     print('\n')
 
