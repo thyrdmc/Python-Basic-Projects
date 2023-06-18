@@ -3,6 +3,7 @@
 It's the python version of Who Wants to be a Millionaire.
 
 Question Class 
+ 
  *Attributes:
   - text
    (str) The text of the question. e.g. “The HTML5 standard was published in 2014.”
@@ -10,6 +11,7 @@ Question Class
    (booelan) The answer of the question. e.g True
 
 QuestionMachine Class 
+ 
  *Attributes:
   - question_list
    (list) The list of the question dataset.
