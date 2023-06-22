@@ -1,3 +1,11 @@
+## T-Hirst's NFT Creator Project (T-Hirst's-painting)
+This project was developed to produce [NFT](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq) images.
+[The works of Damien Hirst](https://en.wikipedia.org/wiki/Damien_Hirst) were inspired while producing the paintings.
+
+![art-1](https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/b95eb2af-b5b1-432f-aeaf-ae40c652b409)
+![art-2](https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/508532e4-f81c-48fe-8518-392cfb26e9cf)
+
+
 ## Py-Millionaire Knowledge Competition (knowledge-competition)
 
 It's the python version of Who Wants to be a Millionaire.
