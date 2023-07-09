@@ -31,10 +31,7 @@ while len(correct_answer) < 11:
     answer = screen.textinput(title=f"{len(correct_answer)}/11", prompt="What's the name of the player?").title()
 
     if answer == "exit" or answer == "Exit":
-        unknowns_data = []
-        for player in players:
-            if player not in correct_answer:
-                unknowns_data.append(player)
+        unknowns_data = [player for player in players if player not in correct_answer]
 
         players_to_learn = pandas.DataFrame(unknowns_data)
         players_to_learn.to_csv("players_to_learn.csv")
