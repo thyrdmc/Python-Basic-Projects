@@ -51,6 +51,13 @@ This project was developed using [Turtle library](https://docs.python.org/3/libr
    Provides to increase the speed of the cars to a certain extent.
 
 
+## Best Eleven Guessing Game (best-eleven-guessing-game)
+This python project is a game that tries to make the fans guess 11 players from Fenerbahce football history.
+It includes the python version of the project whose mobile application will be made.
+
+<img width="700" alt="Best 11 Guessing Game" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/8cc8e407-2bee-45fa-9eeb-bbad108a2a2f">
+
+
 ## T-Hirst's NFT Creator Project (T-Hirst's-painting)
 This project was developed to produce [NFT](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq) images.
 [The works of Damien Hirst](https://en.wikipedia.org/wiki/Damien_Hirst) were inspired while producing the paintings.
