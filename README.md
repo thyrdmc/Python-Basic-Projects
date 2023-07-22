@@ -1,3 +1,16 @@
+## Cost Calculator (costCalculator)
+This project was developed to save users from the complexity of calculating the cost of purchases made on Exchanges and Cryptocurrencies.
+The [tkinter](https://docs.python.org/3/library/tkinter.html) library was used during the development of the project.
+
+###  - Documentation:
+*Methods:
+ - calculate()
+   It calculates the cost over the data in the csv file.
+   
+ - button_clicked()
+   Adds the new data entered in the textboxes by the user to the dataset.
+
+
 ## Crossy Road Arcade Game (crossy-road-game)
 It's the python version of [Crossy Road Game](https://apps.apple.com/us/app/crossy-road/id924373886).
 This project was developed using [Turtle library](https://docs.python.org/3/library/turtle.html#).
