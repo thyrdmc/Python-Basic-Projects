@@ -1,3 +1,22 @@
+## Time Manager for Students (timeManager)
+This project has been developed to [increase students' efficiency](https://en.wikipedia.org/wiki/Pomodoro_Technique) in studying. 
+The [tkinter](https://docs.python.org/3/library/tkinter.html) library was used during the development of the project.
+
+###  - Documentation:
+*Methods:
+ - reset_timer()
+   Sets timer to reset for a student who wants to start a new study plan
+   
+ - start_timer()
+   Starts the timer depending on what stage of the plan we are in
+
+ - countdown()
+   Determines where we are in the plan. (WORK- LONG BREAK - SHORT BREAK)
+
+*Constants:
+ SB_COLOR, LB_COLOR, RED, YELLOW, DARK_GREEN, FONT_NAME, WORK_MIN, SHORT_BREAK_MIN, LONG_BREAK_MIN, REPS, TIMER
+
+
 ## Cost Calculator (costCalculator)
 This project was developed to save users from the complexity of calculating the cost of purchases made on Exchanges and Cryptocurrencies.
 The [tkinter](https://docs.python.org/3/library/tkinter.html) library was used during the development of the project.
