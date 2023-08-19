@@ -7,6 +7,7 @@ def calculate():
     dataset = pandas.read_csv("data.csv")
     text = f"{round(sum(dataset.total) / sum(dataset.amount), 2)}" if sum(dataset.amount) != 0 else 0
     print(sum(dataset.amount))
+    print(sum(dataset.total))
     return text
 
 
@@ -44,7 +45,7 @@ txt_lot.grid(row=0, column=1)
 def button_clicked():
     lot = float(txt_lot.get())
     price = float(textbox_price.get())
-    data_dict = {"price": [price], "amount": [int(lot)], "total": [price * lot]}
+    data_dict = {"price": [price], "amount": [float(lot)], "total": [price * lot]}
     df = pandas.DataFrame(data_dict)
     df.to_csv("data.csv", mode="a", index=False, header=False)
 

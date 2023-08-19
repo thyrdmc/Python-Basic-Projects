@@ -28,9 +28,9 @@ def reset_timer():
 def start_timer():
     global reps
     reps += 1
-    work_count = WORK_MIN * 6
-    short_count = SHORT_BREAK_MIN * 6
-    long_count = LONG_BREAK_MIN * 6
+    work_count = WORK_MIN * 60
+    short_count = SHORT_BREAK_MIN * 60
+    long_count = LONG_BREAK_MIN * 60
 
     if reps % 8 == 0:
         count_down(long_count)
