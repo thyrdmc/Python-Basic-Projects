@@ -1,3 +1,16 @@
+## Password Generator (password-generator)
+This project has been developed to Mobile Phone Users.  
+The project enables users to generate and store secure passwords for the mobile applications(Banking Industry App, Social Media Apps...)
+
+###  - Documentation:
+*Methods:
+ - generate_password()
+   Generates Randomly Complex Password for High Level Security
+   
+ - save_text()
+   Stores Categorized User Password and Application Information(Facebook, Instagram, GarantiBBVA)
+
+
 ## Time Manager for Students (timeManager)
 This project has been developed to [increase students' efficiency](https://en.wikipedia.org/wiki/Pomodoro_Technique) in studying. 
 The [tkinter](https://docs.python.org/3/library/tkinter.html) library was used during the development of the project.
