@@ -4,6 +4,7 @@ from tkinter import messagebox
 import pandas
 # Copies Password from Application
 import pyperclip
+import json
 
 
 def generate_password():
@@ -81,16 +82,38 @@ btn_generate.grid(row=3, column=2)
 
 def save_text():
     """Stores User Information in info.txt File"""
-    with open("info.txt", 'a') as f:
-        data_dict = {f"{txt_website.get()} | {txt_username.get()} | {txt_password.get()}"}
+    website = txt_website.get()
+    username = txt_username.get()
+    password = txt_password.get()
+    user_data = {
+        website: {
+            "username": username,
+            "password": password,
+        }
+    }
 
-        if txt_username.get() == '' or txt_username.get() == '' or txt_password.get() == '':
-            messagebox.showinfo(title="Information", message="Please make sure you haven't left any fields empty.")
+    if txt_username.get() == '' or txt_username.get() == '' or txt_password.get() == '':
+        messagebox.showinfo(title="Information", message="Please make sure you haven't left any fields empty.")
+
+    else:
+        try:
+            with open("data.json", 'r') as f:
+                # Reading Old Data
+                data = json.load(f)
+
+        except:
+            with open("data.json", 'w') as f:
+                json.dump(user_data, f, indent=4)
 
         else:
-            df = pandas.DataFrame(data_dict)
-            df_string = df.to_string(index=False, header=False)
-            f.write(f"{df_string} \n")
+            # Updating Old Data
+            data.update(user_data)
+
+            with open("data.json", 'w') as f:
+                # Saving Updated Data
+                json.dump(data, f, indent=4)
+
+        finally:
             txt_password.delete(0, END)
             txt_website.delete(0, END)
 
