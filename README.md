@@ -9,6 +9,9 @@ The project enables users to generate and store secure passwords for the mobile 
    
  - save_text()
    Stores Categorized User Password and Application Information(Facebook, Instagram, GarantiBBVA)
+   
+   
+<img width="611" alt="Ekran Resmi 2023-08-26 19 35 58" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/6f2d130a-c1f9-4320-a57a-b727796f782e">
 
 
 ## Time Manager for Students (timeManager)
