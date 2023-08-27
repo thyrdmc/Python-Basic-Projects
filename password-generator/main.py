@@ -80,8 +80,30 @@ btn_generate = Button(text="Generate Password", command=generate_password, width
 btn_generate.grid(row=3, column=2)
 
 
+def search_platform():
+    """Searches username and password information from the data file based on website information"""
+    website = txt_website.get()
+
+    try:
+        with open("data.json", 'r') as f:
+            # Reading Old Data
+            data = json.load(f)
+
+    except:
+        messagebox.showinfo(title="Error", message="Data File Not Found")
+
+    else:
+        if website in data:
+            pw = data[website]["password"]
+            email = data[website]["username"]
+            messagebox.showinfo(title="Searched Information", message=f"email: {email} \n password: {pw}")
+
+        else:
+            messagebox.showinfo(title="Warning", message="Website Not Found")
+
+
 def save_text():
-    """Stores User Information in info.txt File"""
+    """Stores User Information in data.json File"""
     website = txt_website.get()
     username = txt_username.get()
     password = txt_password.get()
@@ -120,5 +142,8 @@ def save_text():
 
 btn_add = Button(text="Add", command=save_text, width=36, fg="black", highlightthickness=0)
 btn_add.grid(row=4, column=1, columnspan=2)
+
+btn_search = Button(text="Search", command=search_platform, width=13)
+btn_search.grid(row=1, column=2)
 
 screen.mainloop()
