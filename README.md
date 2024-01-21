@@ -1,3 +1,42 @@
+## Py-Millionaire Knowledge Competition (knowledge-competition with WEB API)
+It's the python version of Who Wants to be a Millionaire. The dataset in this project was provided by API requests from the https://opentdb.com/api.php webservice.
+ 
+###  - Documentation:
+<ins> Question Class </ins>
+
+ *Attributes:
+  - text
+   (str) The text of the question. e.g. “The HTML5 standard was published in 2014.”
+  - answer
+   (booelan) The answer of the question. e.g True
+
+<ins> QuestionMachine Class </ins>
+ 
+ *Attributes:
+  - question_list
+   (list) The list of the question dataset.
+  - question_number
+   (int) The number of the question. e.g Question 1
+  - score
+   (int) Number of questions that the user answered correctly. e.g 1
+  - current_question
+   (int) Number of current question. e.g 1
+ 
+ *Methods:
+ - any_unused_question()
+   Navigate through the dataset to check that all questions have been answered. Returns True or False
+
+ - next_question()
+   Receives the response from the user, and is sent to the function where the response is checked.
+ 
+ - check_answer(user_answer, correct_answer)
+   Parameter user_answer: (str) User's answer to the question
+   Parameter correct_answer: (str) Correct answer of Question
+ 
+ congrats to user if the user gives the correct answer, shows the user's score
+
+ <img width="250" alt="ScreenShot" src="https://github.com/thyrdmc/Python-Basic-Projects/assets/62545306/0ecb359a-df1f-4f65-a3b9-204aafd617b8">
+
 ## Password Generator (password-generator)
 This project has been developed to Mobile Phone Users.  
 The project enables users to generate and store secure passwords for the mobile applications(Banking Industry App, Social Media Apps...)
