@@ -1,48 +1,43 @@
-import time
-from turtle import Screen
-from player import Player
-from car_manager import CarManager
-from scoreboard import Scoreboard
+import tkinter as tk
 
-# Creating Game Screen
-screen = Screen()
-screen.title("Crossy Road Game")
-screen.setup(width=600, height=600)
-screen.tracer(0)
+class TripleArrowAnimation:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Triple Arrow Animation")
+        self.canvas = tk.Canvas(root, width=400, height=400, bg="white")
+        self.canvas.pack()
 
-# Creating player Object from Player Class
-player = Player()
+        self.arrow1 = self.draw_arrow(50, 350)
+        self.arrow2 = self.draw_arrow(100, 350)
+        self.arrow3 = self.draw_arrow(150, 350)
 
-# Creating scoreboard Object from Scoreboard Class
-scoreboard = Scoreboard()
+        self.move_arrows()
 
-# Detecting User's Keyboard Touch
-screen.listen()
-screen.onkey(player.walk, "Up")
+    def draw_arrow(self, x, y):
+        arrow = self.canvas.create_line(x, y, x + 20, y, fill="blue")
+        self.canvas.create_line(x, y, x + 10, y - 10, fill="blue")
+        self.canvas.create_line(x, y, x + 10, y + 10, fill="blue")
+        return arrow
 
-# Creating cars Object from CarManager Class
-cars = CarManager()
+    def move_arrows(self):
+        move_y = -1  # Yukarı hareket için negatif değer
 
-game_over = False
-while not game_over:
-    # Configuring the Speed of Moving Objects
-    time.sleep(cars.speed)
-    screen.update()
+        def move():
+            nonlocal move_y
+            self.canvas.move(self.arrow1, 0, move_y)
+            self.canvas.move(self.arrow2, 0, move_y)
+            self.canvas.move(self.arrow3, 0, move_y)
 
-    # Creating randomly cars on the Game Screen
-    cars.create_cars()
-    cars.move()
+            x1, y1, _, _ = self.canvas.coords(self.arrow1)
 
-    # Is the Game Over?
-    for car in cars.all_cars:
-        if car.distance(player) < 20:
-            scoreboard.game_over()
-            game_over = True
+            if y1 <= 0:
+                self.root.after_cancel(move_id)  # Animasyonu durdur
+            else:
+                self.root.after(10, move)  # 10 milisaniye sonra tekrar çağır
 
-    # Level is Completed?
-    if player.is_finish():
-        scoreboard.next_level()
-        cars.increase_speed()
+        move_id = self.root.after(10, move)
 
-
-screen.exitonclick()
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = TripleArrowAnimation(root)
+    root.mainloop()
