@@ -2,6 +2,9 @@ import requests
 from twilio.rest import Client
 from config import *
 
+STOCK_ENDPOINT = "https://www.alphavantage.co/query"
+NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+
 parameters = {
     "function": "DIGITAL_CURRENCY_DAILY",
     "symbol": STOCK_NAME,
