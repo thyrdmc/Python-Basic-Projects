@@ -1,3 +1,23 @@
+## Crypto News Alert (crypto-news-alert)
+It's the project you can use for follow cryptocurrencies price actions and news.
+The stock price datas in this project was provided by API requests from the [alphavantage](https://www.alphavantage.co/) webservice.
+Also analyzes the daily price changes of the selected cryptocurrency and lists the news about it via [newsapi](https://newsapi.org/) webservice.
+After these steps, the news is sent to your phone as sms via [twilio](https://www.twilio.com/en-us) webservice.
+
+<ins> Constants </ins>
+You need to take apikey for webservices. After you complete this step, You need to fill constant parameters with your apikeys like;
+
+STOCK_NAME = "BTC"
+
+NEWS_API_KEY = "your_api_key"
+
+STOCK_API_KEY = "your_api_key"
+
+TWILIO_SID = "your_twilio_sid"
+
+TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
+
+
 ## Py-Millionaire Knowledge Competition (knowledge-competition with WEB API)
 It's the python version of Who Wants to be a Millionaire. The dataset in this project was provided by API requests from the https://opentdb.com/api.php webservice.
  
